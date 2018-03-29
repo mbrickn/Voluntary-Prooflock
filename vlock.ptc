@@ -1,0 +1,4 @@
+PNLTYPE "OFF"
+@LOOP
+CLS:? "No games played for ";I;" minutes.": I=I+1:WAIT 3600
+GOTO @LOOP
